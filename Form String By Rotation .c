@@ -3,7 +3,7 @@
 int arePalindrome(char *S1,char *S2)
 {
     int N1=strlen(S1);
-    int n2=strlen(S2);
+    int N2=strlen(S2);
     char *temp;
     void *ptr;
     if(N1!=N2)
